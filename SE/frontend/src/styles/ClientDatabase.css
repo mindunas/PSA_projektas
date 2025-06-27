@@ -1,0 +1,67 @@
+.clientdb-container {
+  padding: 2rem;
+}
+
+.client-form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.client-form input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.client-form button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #1890ff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.client-form button:hover {
+  background-color: #40a9ff;
+}
+
+.client-list {
+  list-style: none;
+  padding: 0;
+}
+
+.client-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.client-actions button {
+  margin-left: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.client-actions button:first-child {
+  background-color: #ffc107;
+  color: #333;
+}
+
+.client-actions button:first-child:hover {
+  background-color: #ffca2c;
+}
+
+.client-actions button:last-child {
+  background-color: #dc3545;
+  color: white;
+}
+
+.client-actions button:last-child:hover {
+  background-color: #e55360;
+}

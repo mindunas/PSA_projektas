@@ -1,0 +1,23 @@
+.tools-container {
+  padding: 2rem;
+}
+
+.tools-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.tool-item {
+  margin-bottom: 0.75rem;
+}
+
+.tool-link {
+  color: #1890ff;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.tool-link:hover {
+  text-decoration: underline;
+}
